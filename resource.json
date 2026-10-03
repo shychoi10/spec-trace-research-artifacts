@@ -1,0 +1,26 @@
+{
+  "kind": "saved_development_direct_control_and_blank_answer_review",
+  "questions": 14,
+  "requested_components": 35,
+  "source_units": 1506,
+  "source_email_bodies": 32,
+  "formal_record_ids": [
+    "R4-2207053"
+  ],
+  "exposed_source_families": 1,
+  "independent_human_labels": 0,
+  "semantic_accuracy": null,
+  "method_comparison_result": null,
+  "files": {
+    "spectra_lineage_direct_control.tar.gz": {
+      "sha256": "6e324c9c3b3b86bdfb9f9de72357aa8831047cfa15d4fe821f6d7e8ff81827f3",
+      "bytes": 893874
+    },
+    "direct_answer_review.zip": {
+      "sha256": "a97db2afd9786d843dc437b85632c332f5507e0b57be0820054e0ba9ec733ca0",
+      "bytes": 540791
+    }
+  },
+  "original_packaging_flags_preserved": true,
+  "attribution": "Derived excerpts retain source identifiers and available original participant metadata; no ownership of third-party records is asserted."
+}
