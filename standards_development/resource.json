@@ -1,0 +1,43 @@
+{
+  "kind": "exposed_official_source_development_inputs",
+  "source_families": 1,
+  "specification": "38.314",
+  "versions": [
+    "18.0.0",
+    "19.0.0"
+  ],
+  "native_documents": 21,
+  "native_occurrences": 24,
+  "paragraphs": 5786,
+  "literal_metadata_rows": 16,
+  "questions": 4,
+  "model_responses_included": 0,
+  "independent_semantic_gold": false,
+  "independent_human_labels": 0,
+  "semantic_accuracy": null,
+  "method_superiority": null,
+  "doi": null,
+  "external_users_observed": 0,
+  "native_input_replay": {
+    "status": "PASS_STANDALONE_NATIVE_INPUT_REPLAY",
+    "files": 115,
+    "source_units": 21,
+    "native_occurrences": 24,
+    "paragraphs": 5786,
+    "metadata_rows": 16,
+    "native_archive_member_checks": 24,
+    "development_paragraph_quotes": 35,
+    "development_metadata_values": 6,
+    "questions": 4,
+    "new_model_requests": 0,
+    "independent_human_labels": 0,
+    "semantic_accuracy": null,
+    "scope": "Packaged bytes, raw archive members, bounded XML paragraph projections, literal collected spreadsheet/CSV rows, lossless input packet, question prompts and development reference coordinates. Not full Word rendering, fresh inference, independent semantic truth or method superiority."
+  },
+  "archive": {
+    "filename": "standards_source_input.tar.gz",
+    "sha256": "3494f830455196270aa288587722b76d02ea5024ca4529d00be05c52f87f8ed9",
+    "bytes": 6249939
+  },
+  "prepublication_state": "Local native-input replay passed. Upload and anonymous download are recorded separately in the source repository; this file preserves the prepared state."
+}
