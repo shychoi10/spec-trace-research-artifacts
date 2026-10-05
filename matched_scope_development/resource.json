@@ -1,0 +1,63 @@
+{
+  "state": "LOCALLY_PREPARED_AND_REPLAYED",
+  "archive": {
+    "sha256": "0ef524bf09a6ef488e56dc779e88fe3cec023236d60200b6cd39acf2d5d8df45",
+    "bytes": 23108920
+  },
+  "replay": {
+    "state": "PASS_STANDALONE_NATIVE_TEXT_AND_MATCHED_INPUT_REPLAY",
+    "cohorts": [
+      {
+        "cohort": "joint_scope_pilot",
+        "reading_inputs": 14,
+        "paragraphs": 17324,
+        "metadata_rows": 16,
+        "condition_results": [
+          {
+            "condition": "DIRECT",
+            "returned_CRs": 5,
+            "paragraph_pins": 295,
+            "metadata_pins": 44,
+            "invalid_coordinates": []
+          },
+          {
+            "condition": "JOINT",
+            "returned_CRs": 5,
+            "paragraph_pins": 280,
+            "metadata_pins": 44,
+            "invalid_coordinates": []
+          }
+        ]
+      },
+      {
+        "cohort": "ran1_scope_comparison",
+        "reading_inputs": 36,
+        "paragraphs": 6981,
+        "metadata_rows": 22,
+        "condition_results": [
+          {
+            "condition": "DIRECT",
+            "returned_CRs": 6,
+            "paragraph_pins": 257,
+            "metadata_pins": 131,
+            "invalid_coordinates": []
+          },
+          {
+            "condition": "JOINT",
+            "returned_CRs": 6,
+            "paragraph_pins": 251,
+            "metadata_pins": 82,
+            "invalid_coordinates": []
+          }
+        ]
+      }
+    ],
+    "scope": "Hash/native text/metadata/input identity and citation coordinates. Conversion fidelity, full rendering, semantic entailment and independent human accuracy are not certified.",
+    "human_labels": 0,
+    "model_calls": 0
+  },
+  "file_count": 149,
+  "public_upload": false,
+  "human_labels": 0,
+  "independent_semantic_gold": 0
+}
