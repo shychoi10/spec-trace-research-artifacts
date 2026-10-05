@@ -1,0 +1,39 @@
+{
+  "state": "LOCALLY_PREPARED_AND_REPLAYED",
+  "archive": {
+    "sha256": "a2170cf97d8547161f459a90ae62b80640bfc724e01f24ff0cc8888cbb6fcf4d",
+    "bytes": 2048077
+  },
+  "replay": {
+    "state": "SELECTED_NATIVE_INPUT_AND_FINITE_RELATION_REPLAY_PASS",
+    "files": 582,
+    "questions": 14,
+    "requested_facets": 35,
+    "selected_group_appearances": 360,
+    "native_part_appearances": 1109,
+    "native_email_sources": 32,
+    "native_word_paragraphs": 3231,
+    "decoded_extractions": 10,
+    "invalid_extractions": 3,
+    "interrupted_extractions": 1,
+    "controlled_answers": 43,
+    "returned_first_judgments": 13,
+    "original_literal_states": {
+      "INVALID_JUDGMENT_FORMAT_OR_LITERAL_BINDING": 9,
+      "JUDGMENT_FORMAT_AND_LITERAL_ANCHORS_BOUND": 4
+    },
+    "judgment_items": 261,
+    "literal_source_anchor_bindings": 425,
+    "original_empty_anchor_violations": 44,
+    "model_calls": 0,
+    "original_acceptance_rule_changed": false,
+    "semantic_accuracy_certified": false,
+    "human_labels": 0,
+    "independent_semantic_gold": 0,
+    "limit": "Literal source/input replay and unchanged finite computations; no model rerun, repaired scores, independent semantics, document rendering or quoted-speaker certification."
+  },
+  "file_count": 582,
+  "public_upload": false,
+  "human_labels": 0,
+  "independent_semantic_gold": 0
+}
