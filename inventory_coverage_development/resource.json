@@ -1,0 +1,28 @@
+{
+  "state": "LOCALLY_PREPARED_AND_REPLAYED",
+  "created_utc": "2026-10-06T15:11:57.439030+00:00",
+  "producer": {
+    "path": "scripts/publication/paper/ongoing/kdd-2027-research/method/publish_inventory_coverage_resource.py",
+    "sha256": "6a59eabddc246d4bba52b2ae8748c6843b2620fb2b60632f9744b8f015c89df7",
+    "bytes": 20174
+  },
+  "archive": {
+    "sha256": "61ca82fc1f96429174dd1b81b07b0b617d0e03376c27f6a58cc617a49dcd45f2",
+    "bytes": 16833596
+  },
+  "files": 227,
+  "unique_first_model_calls": 9,
+  "physical_unique_answers": 9,
+  "logical_workflows": 18,
+  "initial_allocations": 6,
+  "source_cases": 3,
+  "uploaded": false,
+  "anonymous_download_verified": false,
+  "normal_and_optimized_replay_match": true,
+  "missing_usage_fields": [],
+  "usage_totals_complete": true,
+  "expert_gold": false,
+  "native_projection_rerun": false,
+  "doi": null,
+  "external_users_observed": 0
+}
