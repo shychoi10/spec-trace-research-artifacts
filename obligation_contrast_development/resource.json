@@ -1,0 +1,32 @@
+{
+  "state": "LOCALLY_PREPARED_AND_REPLAYED",
+  "created_utc": "2026-10-06T04:31:29.390943+00:00",
+  "archive": {
+    "bytes": 6361780,
+    "sha256": "f9d101537aaf667ff93b4b9fa843bec80021acfa84910089b5586cf77d131195"
+  },
+  "local_replay": {
+    "bytes": 14028,
+    "sha256": "6296fe233e2e034aa49f937afc43748a7104d69d5afc27d8ca02247f4e14aecf"
+  },
+  "query_obligations": 18,
+  "dependency_components": 3,
+  "human_labels": 0,
+  "independent_semantic_gold": 0,
+  "development_only": true,
+  "prepared_for_publication": true,
+  "uploaded": false,
+  "anonymous_external_download_verified": false,
+  "external_users_observed": 0,
+  "doi": null,
+  "producer": {
+    "path": "scripts/publication/paper/ongoing/kdd-2027-research/method/publish_obligation_resource.py",
+    "bytes": 8501,
+    "sha256": "7233fadf34978b785aae03fd0ca9ad681fad5323255080f0a8278c1ec3376704"
+  },
+  "replay_producer": {
+    "path": "scripts/publication/paper/ongoing/kdd-2027-research/method/verify_obligation_resource.py",
+    "bytes": 4160,
+    "sha256": "c56449f4e821af3973d66558b5e6454d3154579c92282630fcb9810515b61872"
+  }
+}
