@@ -1,0 +1,27 @@
+{
+  "state": "LOCALLY_PREPARED_AND_REPLAYED",
+  "created_utc": "2026-10-06T06:57:11.559547+00:00",
+  "archive": {
+    "bytes": 16537272,
+    "sha256": "d53e64455e434569eafe6cbb01d0e2abfe6a098ee4fb4648ca3afb61298b3765"
+  },
+  "producer": {
+    "path": "scripts/publication/paper/ongoing/kdd-2027-research/method/publish_evidence_acquisition.py",
+    "bytes": 8402,
+    "sha256": "ea92898fe5995084c26dbf492432233203139e4f21f23a853136b3139e53e8c8"
+  },
+  "local_replay": {
+    "bytes": 1736,
+    "sha256": "46207b34ab9185c17a4a1b0d03ef4321a7dff30b458c0e37b7aa8fb7fd9ec0ba"
+  },
+  "files": 76,
+  "queries": 12,
+  "first_calls": 9,
+  "answer_cells": 36,
+  "independent_components_certified": false,
+  "human_labels": 0,
+  "uploaded": false,
+  "anonymous_download_verified": false,
+  "external_users_observed": 0,
+  "doi": null
+}
