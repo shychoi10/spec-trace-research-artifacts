@@ -1,0 +1,34 @@
+{
+  "state": "LOCALLY_PREPARED_AND_OFFLINE_REPLAYED",
+  "created_utc": "2026-10-06T18:22:10.430557+00:00",
+  "producer": {
+    "path": "scripts/publication/paper/ongoing/kdd-2027-research/method/publish_condition_block_resource.py",
+    "bytes": 13992,
+    "sha256": "b2f02f0adde438018f2cc65d22eb416f3661dfbbd3fdaadffa7c58328579b81e"
+  },
+  "verifier": {
+    "path": "scripts/publication/paper/ongoing/kdd-2027-research/method/verify_condition_block_resource.py",
+    "bytes": 33368,
+    "sha256": "c2650759add1501f4a4c65b68adb1a7165621b6e7bac850db46cfe8328ccaa73"
+  },
+  "manifest": {
+    "path": "logs/publication/paper/ongoing/kdd-2027-research/experiments/relation_annotation/priority13-condition-block-acquisition/publication/packet/manifest.json",
+    "bytes": 72634,
+    "sha256": "6b727616360c31647e154a7bb32d4908a6312f62b3aa445b1d1783c50783de0b"
+  },
+  "archive": {
+    "path": "logs/publication/paper/ongoing/kdd-2027-research/experiments/relation_annotation/priority13-condition-block-acquisition/publication/condition_block_development.tar.gz",
+    "bytes": 29930785,
+    "sha256": "e8e7aee3d735360173cb1851b6c74f09ad96ff1207cc36bf577b2810372946a5"
+  },
+  "local_replay": {
+    "path": "logs/publication/paper/ongoing/kdd-2027-research/experiments/relation_annotation/priority13-condition-block-acquisition/publication/local_replay.json",
+    "bytes": 3219,
+    "sha256": "c4954fcc946e48835b0e6c0bba8292cdc24095edb1ce8f5990ac6c32d849fa81"
+  },
+  "publication_uploaded": false,
+  "anonymous_download_verified": false,
+  "DOI": null,
+  "independent_external_users": 0,
+  "model_calls": 0
+}
