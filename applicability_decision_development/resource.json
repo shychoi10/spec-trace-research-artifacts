@@ -1,0 +1,21 @@
+{
+  "state": "LOCALLY_PREPARED_AND_REPLAYED",
+  "created_utc": "2026-10-06T10:31:41.099697+00:00",
+  "archive": {
+    "bytes": 24556251,
+    "sha256": "7a5bed6ff6c523ddd029652e92b35e083dceb6edd55e9c3a7f3605652653fba3"
+  },
+  "producer": {
+    "path": "scripts/publication/paper/ongoing/kdd-2027-research/method/publish_applicability_resource.py",
+    "bytes": 9021,
+    "sha256": "d3270042afc5b34f8828436a9cac589821a5c1691b8cc739dbc958948d0306a6"
+  },
+  "files": 133,
+  "new_unique_first_calls": 1,
+  "answer_cells": 13,
+  "uploaded": false,
+  "anonymous_download_verified": false,
+  "expert_gold": false,
+  "doi": null,
+  "external_users_observed": 0
+}
