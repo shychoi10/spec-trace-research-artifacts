@@ -1,0 +1,22 @@
+{
+  "state": "LOCALLY_PREPARED_AND_REPLAYED",
+  "created_utc": "2026-10-06T08:02:17.883250+00:00",
+  "archive": {
+    "bytes": 16661213,
+    "sha256": "4700ccdd46391e86618d0e5f7c0c4f0fecb837b2732456ea03f9b960b179d5d7"
+  },
+  "producer": {
+    "path": "scripts/publication/paper/ongoing/kdd-2027-research/method/publish_retained_configuration_resource.py",
+    "bytes": 6577,
+    "sha256": "b0e4857f6ade150e45a4ba644055e91553ddf369fe0b94bc3e7e4ad14d027b49"
+  },
+  "files": 108,
+  "new_unique_first_calls": 2,
+  "inherited_unique_first_observations": 3,
+  "condition_inputs": 9,
+  "uploaded": false,
+  "anonymous_download_verified": false,
+  "human_labels": 0,
+  "doi": null,
+  "external_users_observed": 0
+}
