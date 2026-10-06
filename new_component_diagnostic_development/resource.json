@@ -1,0 +1,21 @@
+{
+  "state": "LOCALLY_PREPARED_AND_REPLAYED",
+  "created_utc": "2026-10-06T09:37:29.537174+00:00",
+  "archive": {
+    "bytes": 24476789,
+    "sha256": "ea6d366fb45a0779c610078b78eab8d9e5451416f7c8eba3b53dbaaca13ee012"
+  },
+  "producer": {
+    "path": "scripts/publication/paper/ongoing/kdd-2027-research/method/publish_new_component_resource.py",
+    "bytes": 7892,
+    "sha256": "dafb1de875fb90a94c05c7577bbb29688b0b220afcd2041f8c2b56aef2f9d094"
+  },
+  "files": 84,
+  "new_unique_first_calls": 1,
+  "condition_inputs": 3,
+  "uploaded": false,
+  "anonymous_download_verified": false,
+  "expert_gold": false,
+  "doi": null,
+  "external_users_observed": 0
+}
