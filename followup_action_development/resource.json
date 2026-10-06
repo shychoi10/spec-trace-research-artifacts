@@ -1,0 +1,23 @@
+{
+  "state": "LOCALLY_PREPARED_AND_REPLAYED",
+  "created_utc": "2026-10-06T13:11:29.322712+00:00",
+  "producer": {
+    "path": "scripts/publication/paper/ongoing/kdd-2027-research/method/publish_followup_action_resource.py",
+    "bytes": 11317,
+    "sha256": "8dfdeb50bbbbbf2d67989d9aaa69eb07d7eef6a0bfcf7b75923b4a780458e812"
+  },
+  "archive": {
+    "bytes": 18610650,
+    "sha256": "30a1733f83656bb7cf3054b7ae9a498087796cb0be52140f07ec060f4ad235a5"
+  },
+  "files": 261,
+  "unique_first_model_calls": 15,
+  "logical_workflows": 18,
+  "source_cases": 3,
+  "uploaded": false,
+  "anonymous_download_verified": false,
+  "normal_and_optimized_replay_match": true,
+  "expert_gold": false,
+  "doi": null,
+  "external_users_observed": 0
+}
