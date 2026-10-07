@@ -1,0 +1,40 @@
+{
+  "state": "LOCALLY_PREPARED_AND_OFFLINE_REPLAYED",
+  "created_utc": "2026-10-07T22:41:52.251293+00:00",
+  "producer": {
+    "path": "scripts/publication/paper/ongoing/kdd-2027-research/method/package_diagnostic_record_resource.py",
+    "bytes": 4843,
+    "sha256": "7a7136996f72f333774ad0d509c3a1c079a37d760517ff181bbb0188707b57bf"
+  },
+  "archive": {
+    "path": "logs/publication/paper/ongoing/kdd-2027-research/experiments/relation_annotation/priority19-diagnostic-record-interface/publication/diagnostic_record_development.tar.gz",
+    "bytes": 209925,
+    "sha256": "d7fe4266fc8eb46db9e2296409c587e1e3e28522094f29feca93ae3e0c517128"
+  },
+  "manifest": {
+    "path": "logs/publication/paper/ongoing/kdd-2027-research/experiments/relation_annotation/priority19-diagnostic-record-interface/publication/packet/manifest.json",
+    "bytes": 11988,
+    "sha256": "78afa1435ada804d76aa43b616d8f0826086cba820efaf3689bc148a83fa615f"
+  },
+  "local_replay": {
+    "path": "logs/publication/paper/ongoing/kdd-2027-research/experiments/relation_annotation/priority19-diagnostic-record-interface/publication/local_replay.json",
+    "bytes": 1613,
+    "sha256": "98136c2e6b602051222264a76c733f86ae4bd7f676bd0a553054e2f4cc9d8139"
+  },
+  "optimized_replay": {
+    "path": "logs/publication/paper/ongoing/kdd-2027-research/experiments/relation_annotation/priority19-diagnostic-record-interface/publication/optimized_replay.json",
+    "bytes": 1613,
+    "sha256": "98136c2e6b602051222264a76c733f86ae4bd7f676bd0a553054e2f4cc9d8139"
+  },
+  "public_upload_complete": false,
+  "anonymous_download_verified": false,
+  "independent_external_users": 0,
+  "DOI": null,
+  "development_diagnostic_resource": true,
+  "independent_semantic_benchmark": false,
+  "new_research_model_calls": 0,
+  "all_24_archive_members_reopened_and_hashed": true,
+  "normal_and_optimized_replay_identical": true,
+  "source_packet_copy_verified": true,
+  "original_preparation_kept_with_explicit_provider_answer_binding_fix": true
+}
