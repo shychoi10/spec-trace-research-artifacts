@@ -1,0 +1,47 @@
+{
+  "state": "MATCHED_SUPPLY_FACT_FREE_AND_CHARGE_CORRUPTIONS_REJECTED",
+  "package_manifest": {
+    "bytes": 84786,
+    "sha256": "e4016b15b4d9c60869f818b4f32640d68782dc93d599e433db4d7c6770826a97"
+  },
+  "original_package_unchanged": true,
+  "meaningful_integrity_tests": [
+    {
+      "name": "metadata_count_as_actual_supply",
+      "rejected": true,
+      "copy_hashes_recomputed": true,
+      "optimized_verifier_returncode": 1,
+      "rejection": "ValueError: Inventory ID/body/character charge differs"
+    },
+    {
+      "name": "diagnostic_fact_in_targeted_request",
+      "rejected": true,
+      "copy_hashes_recomputed": true,
+      "optimized_verifier_returncode": 1,
+      "rejection": "ValueError: Input differs from source/first-answer/fact-free request recipe"
+    },
+    {
+      "name": "same_physical_call_charged_twice_within_workflow",
+      "rejected": true,
+      "copy_hashes_recomputed": true,
+      "optimized_verifier_returncode": 1,
+      "rejection": "ValueError: Unique workflows/0/physical_job_ids length differs"
+    },
+    {
+      "name": "ledger_audit_input_undercharge",
+      "rejected": true,
+      "copy_hashes_recomputed": true,
+      "optimized_verifier_returncode": 1,
+      "rejection": "ValueError: Policy totals/inventory_ledger_audit/provider_usage_sum/input_tokens differs"
+    },
+    {
+      "name": "shared_initial_allocation_claimed_independent",
+      "rejected": true,
+      "copy_hashes_recomputed": true,
+      "optimized_verifier_returncode": 1,
+      "rejection": "ValueError: Dependent workflows/0/dependent_shared_first_returns differs"
+    }
+  ],
+  "new_model_calls": 0,
+  "new_semantic_annotations": 0
+}

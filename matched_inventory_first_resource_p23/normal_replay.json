@@ -1,0 +1,117 @@
+{
+  "state": "MATCHED_SAVED_INPUT_ACTION_LITERAL_AND_CHARGE_REPLAY_PASS",
+  "packet_members_including_manifest": 159,
+  "saved_physical_returns": 20,
+  "unique_case_policy_workflows": 12,
+  "dependent_allocation_policy_workflows": 24,
+  "dependent_logical_calls": 58,
+  "literal_quotes_checked": 655,
+  "answer_cells": 44,
+  "obligation_cells": 46,
+  "decision_cells": 24,
+  "physical_charge": {
+    "calls": 20,
+    "provider_usage_sum": {
+      "cache_write_input_tokens": 0,
+      "cached_input_tokens": 18816,
+      "input_tokens": 748098,
+      "output_tokens": 78756,
+      "reasoning_output_tokens": 3072
+    },
+    "request_seconds_sum": 2110.975519580985
+  },
+  "policy_charges": {
+    "inventory_stop": {
+      "calls": 3,
+      "provider_usage_sum": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 2688,
+        "input_tokens": 104729,
+        "output_tokens": 9092,
+        "reasoning_output_tokens": 340
+      },
+      "request_seconds_sum": 262.0553209090067
+    },
+    "inventory_generic": {
+      "calls": 6,
+      "provider_usage_sum": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 8064,
+        "input_tokens": 218104,
+        "output_tokens": 18328,
+        "reasoning_output_tokens": 672
+      },
+      "request_seconds_sum": 526.7375442420016
+    },
+    "inventory_answer_first": {
+      "calls": 8,
+      "provider_usage_sum": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 5376,
+        "input_tokens": 276478,
+        "output_tokens": 18615,
+        "reasoning_output_tokens": 1387
+      },
+      "request_seconds_sum": 556.0029353209902
+    },
+    "inventory_ledger_audit": {
+      "calls": 12,
+      "provider_usage_sum": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 10752,
+        "input_tokens": 462974,
+        "output_tokens": 59997,
+        "reasoning_output_tokens": 1693
+      },
+      "request_seconds_sum": 1552.3456818360064
+    }
+  },
+  "author_semantic_annotations_reproduced": true,
+  "author_annotation_counts": {
+    "inventory_stop": {
+      "complete": 1,
+      "assigned_Q2_complete": 1,
+      "denominator": 3,
+      "final_answer_jobs": [
+        "CR3217.first",
+        "CR0842.first",
+        "CR0002.first"
+      ]
+    },
+    "inventory_generic": {
+      "complete": 3,
+      "assigned_Q2_complete": 3,
+      "denominator": 3,
+      "final_answer_jobs": [
+        "CR3217.generic",
+        "CR0842.generic",
+        "CR0002.generic"
+      ]
+    },
+    "inventory_answer_first": {
+      "complete": 2,
+      "assigned_Q2_complete": 2,
+      "denominator": 3,
+      "final_answer_jobs": [
+        "CR3217.triage_targeted",
+        "CR0842.triage_targeted",
+        "CR0002.first"
+      ]
+    },
+    "inventory_ledger_audit": {
+      "complete": 2,
+      "assigned_Q2_complete": 2,
+      "denominator": 3,
+      "final_answer_jobs": [
+        "CR3217.audit_targeted",
+        "CR0842.audit_targeted",
+        "CR0002.audit_targeted"
+      ]
+    }
+  },
+  "semantic_correctness_certified": false,
+  "whole_response_support_certified": false,
+  "native_extraction_or_retrieval_reexecuted": false,
+  "model_calls": 0,
+  "network_calls": 0
+}
