@@ -1,0 +1,1144 @@
+{
+  "state": "PARAMETERIZED_DIAGNOSTIC_IDENTITY_SUPPLY_FIELD_AND_CHARGE_PASS",
+  "files_hashed": 211,
+  "record_count": 3,
+  "unique_saved_physical_returns": 36,
+  "lineage_groups": [
+    {
+      "group_id": "existing-coverage-26",
+      "calls": 26,
+      "provider_usage_sum": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 45312,
+        "input_tokens": 1033450,
+        "output_tokens": 103096,
+        "reasoning_output_tokens": 4229
+      },
+      "request_seconds_sum": 2645.954609508917
+    },
+    {
+      "group_id": "existing-native-7",
+      "calls": 7,
+      "provider_usage_sum": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 165812,
+        "output_tokens": 20980,
+        "reasoning_output_tokens": 913
+      },
+      "request_seconds_sum": 400.98192604398355
+    },
+    {
+      "group_id": "existing-central-33",
+      "calls": 33,
+      "provider_usage_sum": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 45312,
+        "input_tokens": 1199262,
+        "output_tokens": 124076,
+        "reasoning_output_tokens": 5142
+      },
+      "request_seconds_sum": 3046.9365355529008
+    },
+    {
+      "group_id": "retained-PC2-additional-historical",
+      "calls": 3,
+      "provider_usage_sum": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 94225,
+        "output_tokens": 10004,
+        "reasoning_output_tokens": 327
+      },
+      "request_seconds_sum": 233.15637472599337
+    }
+  ],
+  "historical_logical_workflows": {
+    "development_logical_policies.inventory_stop": {
+      "calls": 3,
+      "provider_usage_sum": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 31872,
+        "input_tokens": 88661,
+        "output_tokens": 8166,
+        "reasoning_output_tokens": 278
+      },
+      "request_seconds_sum": 530.1362866609998
+    },
+    "development_logical_policies.generic_reask": {
+      "calls": 6,
+      "provider_usage_sum": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 34560,
+        "input_tokens": 185478,
+        "output_tokens": 17471,
+        "reasoning_output_tokens": 769
+      },
+      "request_seconds_sum": 692.6678306069807
+    },
+    "development_logical_policies.answer_first_triage": {
+      "calls": 8,
+      "provider_usage_sum": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 31872,
+        "input_tokens": 256560,
+        "output_tokens": 17732,
+        "reasoning_output_tokens": 1166
+      },
+      "request_seconds_sum": 709.530936606956
+    },
+    "development_logical_policies.source_only_ledger_audit": {
+      "calls": 12,
+      "provider_usage_sum": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 39936,
+        "input_tokens": 396659,
+        "output_tokens": 57735,
+        "reasoning_output_tokens": 2002
+      },
+      "request_seconds_sum": 1676.9928245299961
+    },
+    "prospective_logical_policies.inventory_stop": {
+      "calls": 1,
+      "provider_usage_sum": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 2688,
+        "input_tokens": 58104,
+        "output_tokens": 3196,
+        "reasoning_output_tokens": 94
+      },
+      "request_seconds_sum": 86.2621511729958
+    },
+    "prospective_logical_policies.generic_reask": {
+      "calls": 2,
+      "provider_usage_sum": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 2688,
+        "input_tokens": 119440,
+        "output_tokens": 6944,
+        "reasoning_output_tokens": 197
+      },
+      "request_seconds_sum": 175.8017431939952
+    },
+    "prospective_logical_policies.answer_first_triage": {
+      "calls": 2,
+      "provider_usage_sum": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 2688,
+        "input_tokens": 119432,
+        "output_tokens": 4184,
+        "reasoning_output_tokens": 347
+      },
+      "request_seconds_sum": 120.01085970900021
+    },
+    "prospective_logical_policies.source_only_ledger_audit": {
+      "calls": 4,
+      "provider_usage_sum": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 2688,
+        "input_tokens": 249411,
+        "output_tokens": 21754,
+        "reasoning_output_tokens": 492
+      },
+      "request_seconds_sum": 503.7472905299801
+    },
+    "fixed12000.preserved_shared_context": {
+      "calls": 3,
+      "provider_usage_sum": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 73261,
+        "output_tokens": 8937,
+        "reasoning_output_tokens": 427
+      },
+      "request_seconds_sum": 177.92572153100627
+    },
+    "fixed12000.native_procedure_context": {
+      "calls": 3,
+      "provider_usage_sum": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 72375,
+        "output_tokens": 8778,
+        "reasoning_output_tokens": 435
+      },
+      "request_seconds_sum": 176.80519416098832
+    },
+    "fixed12000.complete_procedure_coverage": {
+      "calls": 3,
+      "provider_usage_sum": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 74100,
+        "output_tokens": 8881,
+        "reasoning_output_tokens": 411
+      },
+      "request_seconds_sum": 175.61731021199375
+    },
+    "samecap17100.native_procedure_context": {
+      "calls": 1,
+      "provider_usage_sum": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 28186,
+        "output_tokens": 3258,
+        "reasoning_output_tokens": 80
+      },
+      "request_seconds_sum": 58.13369026102009
+    },
+    "samecap17100.complete_procedure_coverage": {
+      "calls": 1,
+      "provider_usage_sum": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 22106,
+        "output_tokens": 3156,
+        "reasoning_output_tokens": 156
+      },
+      "request_seconds_sum": 58.529721870989306
+    },
+    "PC2.preserved_edit_version": {
+      "calls": 1,
+      "provider_usage_sum": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 31617,
+        "output_tokens": 2877,
+        "reasoning_output_tokens": 70
+      },
+      "request_seconds_sum": 65.02184196400049
+    },
+    "PC2.configuration_alternative_first": {
+      "calls": 1,
+      "provider_usage_sum": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 29611,
+        "output_tokens": 3515,
+        "reasoning_output_tokens": 96
+      },
+      "request_seconds_sum": 78.67377430199122
+    },
+    "PC2.contextual_retained_first": {
+      "calls": 1,
+      "provider_usage_sum": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 32997,
+        "output_tokens": 3612,
+        "reasoning_output_tokens": 161
+      },
+      "request_seconds_sum": 89.46075846000167
+    },
+    "PC2.full_selected": {
+      "calls": 1,
+      "provider_usage_sum": {
+        "cache_write_input_tokens": 0,
+        "cached_input_tokens": 0,
+        "input_tokens": 36308,
+        "output_tokens": 2920,
+        "reasoning_output_tokens": 185
+      },
+      "request_seconds_sum": 69.29938104198663
+    }
+  },
+  "records": [
+    {
+      "record_id": "CR0002.Q2.supplied-omission",
+      "selected_witnesses": [
+        {
+          "source_id": "RAN2_CR0002:target:p463",
+          "available": true,
+          "saved_input_states": [
+            {
+              "call_id": "call-f0ee6c9da3f75c87d961",
+              "supplied": true
+            },
+            {
+              "call_id": "call-7e6e84a61d637e9a91d2",
+              "supplied": true
+            },
+            {
+              "call_id": "call-70f3f146f19b44697724",
+              "supplied": true
+            },
+            {
+              "call_id": "call-2978069f946892e6d735",
+              "supplied": true
+            },
+            {
+              "call_id": "call-809ce527c9139fec6969",
+              "supplied": true
+            },
+            {
+              "call_id": "call-52aa7714955b6927bb7e",
+              "supplied": true
+            }
+          ]
+        },
+        {
+          "source_id": "RAN2_CR0002:target:p464",
+          "available": true,
+          "saved_input_states": [
+            {
+              "call_id": "call-f0ee6c9da3f75c87d961",
+              "supplied": true
+            },
+            {
+              "call_id": "call-7e6e84a61d637e9a91d2",
+              "supplied": true
+            },
+            {
+              "call_id": "call-70f3f146f19b44697724",
+              "supplied": true
+            },
+            {
+              "call_id": "call-2978069f946892e6d735",
+              "supplied": true
+            },
+            {
+              "call_id": "call-809ce527c9139fec6969",
+              "supplied": true
+            },
+            {
+              "call_id": "call-52aa7714955b6927bb7e",
+              "supplied": true
+            }
+          ]
+        }
+      ],
+      "logical_workflows": {
+        "prospective_logical_policies.inventory_stop": {
+          "calls": 1,
+          "provider_usage_sum": {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 2688,
+            "input_tokens": 58104,
+            "output_tokens": 3196,
+            "reasoning_output_tokens": 94
+          },
+          "request_seconds_sum": 86.2621511729958
+        },
+        "prospective_logical_policies.generic_reask": {
+          "calls": 2,
+          "provider_usage_sum": {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 2688,
+            "input_tokens": 119440,
+            "output_tokens": 6944,
+            "reasoning_output_tokens": 197
+          },
+          "request_seconds_sum": 175.8017431939952
+        },
+        "prospective_logical_policies.answer_first_triage": {
+          "calls": 2,
+          "provider_usage_sum": {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 2688,
+            "input_tokens": 119432,
+            "output_tokens": 4184,
+            "reasoning_output_tokens": 347
+          },
+          "request_seconds_sum": 120.01085970900021
+        },
+        "prospective_logical_policies.source_only_ledger_audit": {
+          "calls": 4,
+          "provider_usage_sum": {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 2688,
+            "input_tokens": 249411,
+            "output_tokens": 21754,
+            "reasoning_output_tokens": 492
+          },
+          "request_seconds_sum": 503.7472905299801
+        }
+      },
+      "copied_author_assessment_only": true
+    },
+    {
+      "record_id": "CR1484.Q2.retained-PC2-acquisition",
+      "selected_witnesses": [
+        {
+          "source_id": "row25:CR:t5r147",
+          "available": true,
+          "saved_input_states": [
+            {
+              "call_id": "call-bbac624e70550352904f",
+              "supplied": false
+            },
+            {
+              "call_id": "call-f59d21003d2c3e5b1ad8",
+              "supplied": true
+            },
+            {
+              "call_id": "call-ec887a764a45879e6515",
+              "supplied": true
+            },
+            {
+              "call_id": "call-25d441d2a4f8ed27dd23",
+              "supplied": true
+            }
+          ]
+        },
+        {
+          "source_id": "row25:base:2:t58r147",
+          "available": true,
+          "saved_input_states": [
+            {
+              "call_id": "call-bbac624e70550352904f",
+              "supplied": false
+            },
+            {
+              "call_id": "call-f59d21003d2c3e5b1ad8",
+              "supplied": true
+            },
+            {
+              "call_id": "call-ec887a764a45879e6515",
+              "supplied": true
+            },
+            {
+              "call_id": "call-25d441d2a4f8ed27dd23",
+              "supplied": true
+            }
+          ]
+        },
+        {
+          "source_id": "row25:target:2:t58r147",
+          "available": true,
+          "saved_input_states": [
+            {
+              "call_id": "call-bbac624e70550352904f",
+              "supplied": false
+            },
+            {
+              "call_id": "call-f59d21003d2c3e5b1ad8",
+              "supplied": true
+            },
+            {
+              "call_id": "call-ec887a764a45879e6515",
+              "supplied": true
+            },
+            {
+              "call_id": "call-25d441d2a4f8ed27dd23",
+              "supplied": true
+            }
+          ]
+        }
+      ],
+      "logical_workflows": {
+        "PC2.preserved_edit_version": {
+          "calls": 1,
+          "provider_usage_sum": {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 31617,
+            "output_tokens": 2877,
+            "reasoning_output_tokens": 70
+          },
+          "request_seconds_sum": 65.02184196400049
+        },
+        "PC2.configuration_alternative_first": {
+          "calls": 1,
+          "provider_usage_sum": {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 29611,
+            "output_tokens": 3515,
+            "reasoning_output_tokens": 96
+          },
+          "request_seconds_sum": 78.67377430199122
+        },
+        "PC2.contextual_retained_first": {
+          "calls": 1,
+          "provider_usage_sum": {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 32997,
+            "output_tokens": 3612,
+            "reasoning_output_tokens": 161
+          },
+          "request_seconds_sum": 89.46075846000167
+        },
+        "PC2.full_selected": {
+          "calls": 1,
+          "provider_usage_sum": {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 36308,
+            "output_tokens": 2920,
+            "reasoning_output_tokens": 185
+          },
+          "request_seconds_sum": 69.29938104198663
+        }
+      },
+      "copied_author_assessment_only": true
+    },
+    {
+      "record_id": "CR0042r2.Q2.capacity-and-same-cap-allocation",
+      "selected_witnesses": [
+        {
+          "source_id": "RAN2_CR0042:CR:p131",
+          "available": true,
+          "saved_input_states": [
+            {
+              "call_id": "call-16521df1e82344f37ffb",
+              "supplied": true
+            },
+            {
+              "call_id": "call-bbc815a276f271dc3a39",
+              "supplied": true
+            },
+            {
+              "call_id": "call-cb644844e291e9b0d4cf",
+              "supplied": false
+            },
+            {
+              "call_id": "call-f80fe2f51ca751850e2c",
+              "supplied": true
+            },
+            {
+              "call_id": "call-ba45b8ebc39b2bfe34a4",
+              "supplied": true
+            }
+          ]
+        },
+        {
+          "source_id": "RAN2_CR0042:base:p155",
+          "available": true,
+          "saved_input_states": [
+            {
+              "call_id": "call-16521df1e82344f37ffb",
+              "supplied": true
+            },
+            {
+              "call_id": "call-bbc815a276f271dc3a39",
+              "supplied": true
+            },
+            {
+              "call_id": "call-cb644844e291e9b0d4cf",
+              "supplied": false
+            },
+            {
+              "call_id": "call-f80fe2f51ca751850e2c",
+              "supplied": true
+            },
+            {
+              "call_id": "call-ba45b8ebc39b2bfe34a4",
+              "supplied": true
+            }
+          ]
+        },
+        {
+          "source_id": "RAN2_CR0042:target:p155",
+          "available": true,
+          "saved_input_states": [
+            {
+              "call_id": "call-16521df1e82344f37ffb",
+              "supplied": true
+            },
+            {
+              "call_id": "call-bbc815a276f271dc3a39",
+              "supplied": true
+            },
+            {
+              "call_id": "call-cb644844e291e9b0d4cf",
+              "supplied": false
+            },
+            {
+              "call_id": "call-f80fe2f51ca751850e2c",
+              "supplied": true
+            },
+            {
+              "call_id": "call-ba45b8ebc39b2bfe34a4",
+              "supplied": true
+            }
+          ]
+        },
+        {
+          "source_id": "RAN2_CR0042:CR:p168",
+          "available": true,
+          "saved_input_states": [
+            {
+              "call_id": "call-16521df1e82344f37ffb",
+              "supplied": false
+            },
+            {
+              "call_id": "call-bbc815a276f271dc3a39",
+              "supplied": false
+            },
+            {
+              "call_id": "call-cb644844e291e9b0d4cf",
+              "supplied": false
+            },
+            {
+              "call_id": "call-f80fe2f51ca751850e2c",
+              "supplied": false
+            },
+            {
+              "call_id": "call-ba45b8ebc39b2bfe34a4",
+              "supplied": true
+            }
+          ]
+        },
+        {
+          "source_id": "RAN2_CR0042:CR:p177",
+          "available": true,
+          "saved_input_states": [
+            {
+              "call_id": "call-16521df1e82344f37ffb",
+              "supplied": false
+            },
+            {
+              "call_id": "call-bbc815a276f271dc3a39",
+              "supplied": false
+            },
+            {
+              "call_id": "call-cb644844e291e9b0d4cf",
+              "supplied": false
+            },
+            {
+              "call_id": "call-f80fe2f51ca751850e2c",
+              "supplied": false
+            },
+            {
+              "call_id": "call-ba45b8ebc39b2bfe34a4",
+              "supplied": true
+            }
+          ]
+        },
+        {
+          "source_id": "RAN2_CR0042:base:p247",
+          "available": true,
+          "saved_input_states": [
+            {
+              "call_id": "call-16521df1e82344f37ffb",
+              "supplied": false
+            },
+            {
+              "call_id": "call-bbc815a276f271dc3a39",
+              "supplied": false
+            },
+            {
+              "call_id": "call-cb644844e291e9b0d4cf",
+              "supplied": false
+            },
+            {
+              "call_id": "call-f80fe2f51ca751850e2c",
+              "supplied": false
+            },
+            {
+              "call_id": "call-ba45b8ebc39b2bfe34a4",
+              "supplied": true
+            }
+          ]
+        },
+        {
+          "source_id": "RAN2_CR0042:target:p247",
+          "available": true,
+          "saved_input_states": [
+            {
+              "call_id": "call-16521df1e82344f37ffb",
+              "supplied": false
+            },
+            {
+              "call_id": "call-bbc815a276f271dc3a39",
+              "supplied": false
+            },
+            {
+              "call_id": "call-cb644844e291e9b0d4cf",
+              "supplied": false
+            },
+            {
+              "call_id": "call-f80fe2f51ca751850e2c",
+              "supplied": false
+            },
+            {
+              "call_id": "call-ba45b8ebc39b2bfe34a4",
+              "supplied": true
+            }
+          ]
+        },
+        {
+          "source_id": "RAN2_CR0042:base:p256",
+          "available": true,
+          "saved_input_states": [
+            {
+              "call_id": "call-16521df1e82344f37ffb",
+              "supplied": false
+            },
+            {
+              "call_id": "call-bbc815a276f271dc3a39",
+              "supplied": false
+            },
+            {
+              "call_id": "call-cb644844e291e9b0d4cf",
+              "supplied": false
+            },
+            {
+              "call_id": "call-f80fe2f51ca751850e2c",
+              "supplied": false
+            },
+            {
+              "call_id": "call-ba45b8ebc39b2bfe34a4",
+              "supplied": true
+            }
+          ]
+        },
+        {
+          "source_id": "RAN2_CR0042:target:p256",
+          "available": true,
+          "saved_input_states": [
+            {
+              "call_id": "call-16521df1e82344f37ffb",
+              "supplied": false
+            },
+            {
+              "call_id": "call-bbc815a276f271dc3a39",
+              "supplied": false
+            },
+            {
+              "call_id": "call-cb644844e291e9b0d4cf",
+              "supplied": false
+            },
+            {
+              "call_id": "call-f80fe2f51ca751850e2c",
+              "supplied": false
+            },
+            {
+              "call_id": "call-ba45b8ebc39b2bfe34a4",
+              "supplied": true
+            }
+          ]
+        },
+        {
+          "source_id": "RAN2_CR0042:CR:p191",
+          "available": true,
+          "saved_input_states": [
+            {
+              "call_id": "call-16521df1e82344f37ffb",
+              "supplied": false
+            },
+            {
+              "call_id": "call-bbc815a276f271dc3a39",
+              "supplied": true
+            },
+            {
+              "call_id": "call-cb644844e291e9b0d4cf",
+              "supplied": false
+            },
+            {
+              "call_id": "call-f80fe2f51ca751850e2c",
+              "supplied": true
+            },
+            {
+              "call_id": "call-ba45b8ebc39b2bfe34a4",
+              "supplied": true
+            }
+          ]
+        },
+        {
+          "source_id": "RAN2_CR0042:base:p269",
+          "available": true,
+          "saved_input_states": [
+            {
+              "call_id": "call-16521df1e82344f37ffb",
+              "supplied": false
+            },
+            {
+              "call_id": "call-bbc815a276f271dc3a39",
+              "supplied": true
+            },
+            {
+              "call_id": "call-cb644844e291e9b0d4cf",
+              "supplied": true
+            },
+            {
+              "call_id": "call-f80fe2f51ca751850e2c",
+              "supplied": false
+            },
+            {
+              "call_id": "call-ba45b8ebc39b2bfe34a4",
+              "supplied": true
+            }
+          ]
+        },
+        {
+          "source_id": "RAN2_CR0042:target:p269",
+          "available": true,
+          "saved_input_states": [
+            {
+              "call_id": "call-16521df1e82344f37ffb",
+              "supplied": false
+            },
+            {
+              "call_id": "call-bbc815a276f271dc3a39",
+              "supplied": true
+            },
+            {
+              "call_id": "call-cb644844e291e9b0d4cf",
+              "supplied": false
+            },
+            {
+              "call_id": "call-f80fe2f51ca751850e2c",
+              "supplied": false
+            },
+            {
+              "call_id": "call-ba45b8ebc39b2bfe34a4",
+              "supplied": true
+            }
+          ]
+        },
+        {
+          "source_id": "RAN2_CR0042:CR:p202",
+          "available": true,
+          "saved_input_states": [
+            {
+              "call_id": "call-16521df1e82344f37ffb",
+              "supplied": true
+            },
+            {
+              "call_id": "call-bbc815a276f271dc3a39",
+              "supplied": true
+            },
+            {
+              "call_id": "call-cb644844e291e9b0d4cf",
+              "supplied": true
+            },
+            {
+              "call_id": "call-f80fe2f51ca751850e2c",
+              "supplied": true
+            },
+            {
+              "call_id": "call-ba45b8ebc39b2bfe34a4",
+              "supplied": true
+            }
+          ]
+        },
+        {
+          "source_id": "RAN2_CR0042:base:p318",
+          "available": true,
+          "saved_input_states": [
+            {
+              "call_id": "call-16521df1e82344f37ffb",
+              "supplied": true
+            },
+            {
+              "call_id": "call-bbc815a276f271dc3a39",
+              "supplied": true
+            },
+            {
+              "call_id": "call-cb644844e291e9b0d4cf",
+              "supplied": true
+            },
+            {
+              "call_id": "call-f80fe2f51ca751850e2c",
+              "supplied": true
+            },
+            {
+              "call_id": "call-ba45b8ebc39b2bfe34a4",
+              "supplied": true
+            }
+          ]
+        },
+        {
+          "source_id": "RAN2_CR0042:target:p318",
+          "available": true,
+          "saved_input_states": [
+            {
+              "call_id": "call-16521df1e82344f37ffb",
+              "supplied": true
+            },
+            {
+              "call_id": "call-bbc815a276f271dc3a39",
+              "supplied": true
+            },
+            {
+              "call_id": "call-cb644844e291e9b0d4cf",
+              "supplied": true
+            },
+            {
+              "call_id": "call-f80fe2f51ca751850e2c",
+              "supplied": true
+            },
+            {
+              "call_id": "call-ba45b8ebc39b2bfe34a4",
+              "supplied": true
+            }
+          ]
+        },
+        {
+          "source_id": "RAN2_CR0042:CR:t2r13",
+          "available": true,
+          "saved_input_states": [
+            {
+              "call_id": "call-16521df1e82344f37ffb",
+              "supplied": true
+            },
+            {
+              "call_id": "call-bbc815a276f271dc3a39",
+              "supplied": true
+            },
+            {
+              "call_id": "call-cb644844e291e9b0d4cf",
+              "supplied": true
+            },
+            {
+              "call_id": "call-f80fe2f51ca751850e2c",
+              "supplied": true
+            },
+            {
+              "call_id": "call-ba45b8ebc39b2bfe34a4",
+              "supplied": true
+            }
+          ]
+        },
+        {
+          "source_id": "RAN2_CR0042:CR:p200",
+          "available": true,
+          "saved_input_states": [
+            {
+              "call_id": "call-16521df1e82344f37ffb",
+              "supplied": true
+            },
+            {
+              "call_id": "call-bbc815a276f271dc3a39",
+              "supplied": true
+            },
+            {
+              "call_id": "call-cb644844e291e9b0d4cf",
+              "supplied": true
+            },
+            {
+              "call_id": "call-f80fe2f51ca751850e2c",
+              "supplied": true
+            },
+            {
+              "call_id": "call-ba45b8ebc39b2bfe34a4",
+              "supplied": true
+            }
+          ]
+        },
+        {
+          "source_id": "RAN2_CR0042:CR:p201",
+          "available": true,
+          "saved_input_states": [
+            {
+              "call_id": "call-16521df1e82344f37ffb",
+              "supplied": true
+            },
+            {
+              "call_id": "call-bbc815a276f271dc3a39",
+              "supplied": true
+            },
+            {
+              "call_id": "call-cb644844e291e9b0d4cf",
+              "supplied": true
+            },
+            {
+              "call_id": "call-f80fe2f51ca751850e2c",
+              "supplied": true
+            },
+            {
+              "call_id": "call-ba45b8ebc39b2bfe34a4",
+              "supplied": true
+            }
+          ]
+        },
+        {
+          "source_id": "RAN2_CR0042:base:p316",
+          "available": true,
+          "saved_input_states": [
+            {
+              "call_id": "call-16521df1e82344f37ffb",
+              "supplied": true
+            },
+            {
+              "call_id": "call-bbc815a276f271dc3a39",
+              "supplied": true
+            },
+            {
+              "call_id": "call-cb644844e291e9b0d4cf",
+              "supplied": true
+            },
+            {
+              "call_id": "call-f80fe2f51ca751850e2c",
+              "supplied": true
+            },
+            {
+              "call_id": "call-ba45b8ebc39b2bfe34a4",
+              "supplied": true
+            }
+          ]
+        },
+        {
+          "source_id": "RAN2_CR0042:base:p317",
+          "available": true,
+          "saved_input_states": [
+            {
+              "call_id": "call-16521df1e82344f37ffb",
+              "supplied": true
+            },
+            {
+              "call_id": "call-bbc815a276f271dc3a39",
+              "supplied": true
+            },
+            {
+              "call_id": "call-cb644844e291e9b0d4cf",
+              "supplied": true
+            },
+            {
+              "call_id": "call-f80fe2f51ca751850e2c",
+              "supplied": true
+            },
+            {
+              "call_id": "call-ba45b8ebc39b2bfe34a4",
+              "supplied": true
+            }
+          ]
+        },
+        {
+          "source_id": "RAN2_CR0042:target:p316",
+          "available": true,
+          "saved_input_states": [
+            {
+              "call_id": "call-16521df1e82344f37ffb",
+              "supplied": true
+            },
+            {
+              "call_id": "call-bbc815a276f271dc3a39",
+              "supplied": true
+            },
+            {
+              "call_id": "call-cb644844e291e9b0d4cf",
+              "supplied": true
+            },
+            {
+              "call_id": "call-f80fe2f51ca751850e2c",
+              "supplied": true
+            },
+            {
+              "call_id": "call-ba45b8ebc39b2bfe34a4",
+              "supplied": true
+            }
+          ]
+        },
+        {
+          "source_id": "RAN2_CR0042:target:p317",
+          "available": true,
+          "saved_input_states": [
+            {
+              "call_id": "call-16521df1e82344f37ffb",
+              "supplied": true
+            },
+            {
+              "call_id": "call-bbc815a276f271dc3a39",
+              "supplied": true
+            },
+            {
+              "call_id": "call-cb644844e291e9b0d4cf",
+              "supplied": true
+            },
+            {
+              "call_id": "call-f80fe2f51ca751850e2c",
+              "supplied": true
+            },
+            {
+              "call_id": "call-ba45b8ebc39b2bfe34a4",
+              "supplied": true
+            }
+          ]
+        },
+        {
+          "source_id": "RAN2_CR0042:CR:p178",
+          "available": true,
+          "saved_input_states": [
+            {
+              "call_id": "call-16521df1e82344f37ffb",
+              "supplied": false
+            },
+            {
+              "call_id": "call-bbc815a276f271dc3a39",
+              "supplied": false
+            },
+            {
+              "call_id": "call-cb644844e291e9b0d4cf",
+              "supplied": false
+            },
+            {
+              "call_id": "call-f80fe2f51ca751850e2c",
+              "supplied": false
+            },
+            {
+              "call_id": "call-ba45b8ebc39b2bfe34a4",
+              "supplied": true
+            }
+          ]
+        }
+      ],
+      "logical_workflows": {
+        "fixed12000.preserved_shared_context": {
+          "calls": 3,
+          "provider_usage_sum": {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 73261,
+            "output_tokens": 8937,
+            "reasoning_output_tokens": 427
+          },
+          "request_seconds_sum": 177.92572153100627
+        },
+        "fixed12000.native_procedure_context": {
+          "calls": 3,
+          "provider_usage_sum": {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 72375,
+            "output_tokens": 8778,
+            "reasoning_output_tokens": 435
+          },
+          "request_seconds_sum": 176.80519416098832
+        },
+        "fixed12000.complete_procedure_coverage": {
+          "calls": 3,
+          "provider_usage_sum": {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 74100,
+            "output_tokens": 8881,
+            "reasoning_output_tokens": 411
+          },
+          "request_seconds_sum": 175.61731021199375
+        },
+        "samecap17100.native_procedure_context": {
+          "calls": 1,
+          "provider_usage_sum": {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 28186,
+            "output_tokens": 3258,
+            "reasoning_output_tokens": 80
+          },
+          "request_seconds_sum": 58.13369026102009
+        },
+        "samecap17100.complete_procedure_coverage": {
+          "calls": 1,
+          "provider_usage_sum": {
+            "cache_write_input_tokens": 0,
+            "cached_input_tokens": 0,
+            "input_tokens": 22106,
+            "output_tokens": 3156,
+            "reasoning_output_tokens": 156
+          },
+          "request_seconds_sum": 58.529721870989306
+        }
+      },
+      "copied_author_assessment_only": true
+    }
+  ],
+  "new_research_model_calls": 0,
+  "semantic_labels_rejudged": false,
+  "independent_expert_gold": false,
+  "whole_response_support_certified": false,
+  "native_rendering_certified": false,
+  "public_upload_certified": false
+}

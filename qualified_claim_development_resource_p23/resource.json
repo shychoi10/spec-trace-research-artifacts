@@ -1,0 +1,77 @@
+{
+  "state": "LOCALLY_PREPARED_NORMAL_OPTIMIZED_REPLAY_AND_INTEGRITY_TESTED",
+  "created_utc": "2026-10-08T07:46:16.723686+00:00",
+  "producer": {
+    "path": "scripts/publication/paper/ongoing/kdd-2027-research/method/package_matched_policy_reuse_resource.py",
+    "bytes": 8842,
+    "sha256": "1989611adf8934b4cb616d9f43d4ee1627ce1f8e2e8be9ba8bdb73e92a9caf4e"
+  },
+  "archive": {
+    "path": "logs/publication/paper/ongoing/kdd-2027-research/experiments/relation_annotation/priority23-matched-policy-reuse/reuse/publication/qualified_claim_development_resource.tar.gz",
+    "bytes": 1310840,
+    "sha256": "9a2881c3975e9b1d196f52f1cf988f4edb9f72e3334ee5ec3cf40109bc7e6b44"
+  },
+  "manifest": {
+    "path": "logs/publication/paper/ongoing/kdd-2027-research/experiments/relation_annotation/priority23-matched-policy-reuse/reuse/publication/packet/manifest.json",
+    "bytes": 184693,
+    "sha256": "97d013f7fe963bb646566ed0796f0e803fae10ce2a24232afc45cd401d4c6de0"
+  },
+  "normal_replay": {
+    "path": "logs/publication/paper/ongoing/kdd-2027-research/experiments/relation_annotation/priority23-matched-policy-reuse/reuse/publication/normal_replay.json",
+    "bytes": 32919,
+    "sha256": "5bac143ed95afaf332ab84f034714d54e48d99743dbefd36a6fe331e4f068b5d"
+  },
+  "optimized_replay": {
+    "path": "logs/publication/paper/ongoing/kdd-2027-research/experiments/relation_annotation/priority23-matched-policy-reuse/reuse/publication/optimized_replay.json",
+    "bytes": 32919,
+    "sha256": "5bac143ed95afaf332ab84f034714d54e48d99743dbefd36a6fe331e4f068b5d"
+  },
+  "integrity_tests": {
+    "path": "logs/publication/paper/ongoing/kdd-2027-research/experiments/relation_annotation/priority23-matched-policy-reuse/reuse/publication/integrity_tests.json",
+    "bytes": 1264,
+    "sha256": "5d918c80a6b6de3894e5c805897e22738cec74487f9c364ff15cb78197d24bcb"
+  },
+  "source_integrity_report": {
+    "path": "logs/publication/paper/ongoing/kdd-2027-research/experiments/relation_annotation/priority23-matched-policy-reuse/reuse/integrity_tests.json",
+    "bytes": 1264,
+    "sha256": "5d918c80a6b6de3894e5c805897e22738cec74487f9c364ff15cb78197d24bcb"
+  },
+  "actual_guarded_replays": {
+    "normal": {
+      "guard": {
+        "path": "logs/publication/paper/ongoing/kdd-2027-research/experiments/relation_annotation/priority23-matched-policy-reuse/reuse-normal-replay-guard/result.json",
+        "bytes": 2217,
+        "sha256": "49b650704c76244da78c2625fb8cce094359dea0ff953abc3e661369328cd96a"
+      },
+      "stdout": {
+        "path": "logs/publication/paper/ongoing/kdd-2027-research/experiments/relation_annotation/priority23-matched-policy-reuse/reuse-normal-replay-guard/child.log",
+        "bytes": 32919,
+        "sha256": "5bac143ed95afaf332ab84f034714d54e48d99743dbefd36a6fe331e4f068b5d"
+      }
+    },
+    "optimized": {
+      "guard": {
+        "path": "logs/publication/paper/ongoing/kdd-2027-research/experiments/relation_annotation/priority23-matched-policy-reuse/reuse-optimized-replay-guard/result.json",
+        "bytes": 2230,
+        "sha256": "2a62bcab687295d46f68cc0d742fc51e704644b92654a8980d5715950ec9b4c9"
+      },
+      "stdout": {
+        "path": "logs/publication/paper/ongoing/kdd-2027-research/experiments/relation_annotation/priority23-matched-policy-reuse/reuse-optimized-replay-guard/child.log",
+        "bytes": 32919,
+        "sha256": "5bac143ed95afaf332ab84f034714d54e48d99743dbefd36a6fe331e4f068b5d"
+      }
+    }
+  },
+  "archive_members": 212,
+  "all_archive_members_reopened_and_hashed": true,
+  "unique_saved_physical_returns": 36,
+  "original_lineage_not_new_measurements": true,
+  "new_research_model_calls": 0,
+  "semantic_labels_rejudged": false,
+  "independent_expert_gold": false,
+  "protected_body_reads": 0,
+  "public_upload_complete": false,
+  "anonymous_download_verified": false,
+  "independent_external_users": 0,
+  "DOI": null
+}

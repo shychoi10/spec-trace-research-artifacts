@@ -1,0 +1,38 @@
+{
+  "state": "DIAGNOSTIC_SUPPLY_BODY_AND_PHYSICAL_LOGICAL_CHARGE_CORRUPTION_REJECTED",
+  "valid_package_state": "PARAMETERIZED_DIAGNOSTIC_IDENTITY_SUPPLY_FIELD_AND_CHARGE_PASS",
+  "package_manifest": {
+    "bytes": 184693,
+    "sha256": "97d013f7fe963bb646566ed0796f0e803fae10ce2a24232afc45cd401d4c6de0"
+  },
+  "meaningful_integrity_tests": [
+    {
+      "test": "metadata-mention-is-not-supply",
+      "rejected": true,
+      "actual_reason": "Supplied/withheld state differs"
+    },
+    {
+      "test": "invented-source-condition",
+      "rejected": true,
+      "actual_reason": "Available source identity differs"
+    },
+    {
+      "test": "duplicate-within-workflow-charge",
+      "rejected": true,
+      "actual_reason": "Duplicate call within one logical workflow"
+    },
+    {
+      "test": "audit-undercharge",
+      "rejected": true,
+      "actual_reason": "Logical full-workflow charges differ: development_logical_policies.source_only_ledger_audit"
+    },
+    {
+      "test": "reuse-is-not-second-physical-return",
+      "rejected": true,
+      "actual_reason": "Duplicate physical-call identity; reused logical charge is separate"
+    }
+  ],
+  "original_package_unchanged": true,
+  "new_research_model_calls": 0,
+  "semantic_labels_rejudged": false
+}
